@@ -10,6 +10,10 @@
     <link rel="icon" href="img/favicon.ico" />
 
     <title>Business Bootstrap Theme</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet" />
@@ -21,7 +25,7 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-inverse navbar-fixed-top">
+    <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
           <button
@@ -37,20 +41,52 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Project name</a>
+          <a class="navbar-brand logo-nav" href="#"
+            ><img src="img/logo.png"
+          /></a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active">
+              <a href="#">Home <span>Main Page</span></a>
+            </li>
+            <li>
+              <a href="about.htnl">About <span>Who Are We?</span></a>
+            </li>
+            <li>
+              <a href="services.html">Services <span>What Do We Do?</span></a>
+            </li>
+            <li>
+              <a href="contact.html">Contact <span>Get In Touch!</span></a>
+            </li>
           </ul>
         </div>
         <!--/.nav-collapse -->
       </div>
     </nav>
 
-    <section></section>
+    <section class="jumbotron">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7">
+            <div class="animated fadeInLeft">
+              <h1>Clean Business Theme</h1>
+              <p class="lead">
+                Phasellus bibendum et turpis sit amet consequat. Nullam mollis
+                ante vel nunc ultricies condimentum. Suspendisse tempus, enim et
+                ultrices viverra.
+              </p>
+              <a class="btn btn-primary btn-lg" href="#">Find Out More</a>
+            </div>
+          </div>
+          <div class="col-md-5">
+            <div class="animated fadeInUp">
+              <img src="img/logos.png" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
